@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#headerbox {
+    display: inline-block;
+    text-align: center;
+    box-shadow: 0px 4px 4px 0px #00000040;
+    ;
+}
+
+#navbox {
+    display: inline-block;
+    vertical-align: left;
+    margin-left: 277px;
+    margin-right: 277px;
+}
+
+#nextmove {
+    vertical-align: middle;
+}
+
+#navigation {
+    width: 1920px;
+    height: 58px;
+    padding: 12px 32px;
+    background-color: #FFFFFF;
+}
+
+#contactus {
+    font-size: 14px;
+    background-color: #6941C6;
+    color: #FFFFFF;
+    padding: 8px 16px; 
+    border: 1px solid #6941C6;
+    vertical-align: left;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+#navbox a {
+    font-size: 18px;
+    padding-left: 20px;
+    text-decoration: none;
+    vertical-align: left;
+    color: #323232;
+}
+
+#hugecontainer {
+    width: 1440px;
+    height: 3083px;
+    background-color: #E9D7FE;
+    margin-top: 131px;
+    margin-left: 240px;
+}
+
+#topdiv {
+    text-align: center;
+    padding-top: 96px;
+}
+
+h1 {
+    font-size: 40px;
+    color: #181D27;
+}
+
+#grows {
+    margin-top: 24px;
+    font-size: 24px;
+    color: #535862;
+}
+
+#planbox {
+    text-align: center;
+    margin-top: 32px;
+}
+
+#Basic_plan {
+    display: inline-block;
+    background-color: #FFFFFF;
+    width: 373px;
+    height: 589px;
+    border-radius: 16px;
+}
+
+#Business_plan {
+    display: inline-block;
+    background-color: #FFFFFF;
+    width: 373px;
+    height: 589px;
+    margin-left: 32px;
+    margin-right: 32px;
+    border-radius: 16px;
+}
+
+#Enterprise_plan {
+    display: inline-block;
+    background-color: #FFFFFF;
+    width: 373px;
+    height: 589px;
+    border-radius: 16px;
+}
+
+/* DIV ROWS */
+
