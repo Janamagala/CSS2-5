@@ -55,6 +55,8 @@
     text-align: center;
     margin-top: 131px;
     margin-left: 240px;
+    padding-bottom: 96px;
+    margin-bottom: 203px;
 }
 
 #topdiv {
@@ -530,6 +532,7 @@ h1 {
     display: inline-block;
     font-size: 18px;
     margin-left: 12px;
+    margin-right: 72px;
 }
 
 #invaluablepart {
@@ -539,4 +542,26 @@ h1 {
     padding-bottom: 80px;
     padding-top: 32px;
     padding-left: 32px;
+}
+
+#invaluablepart {
+    max-width: 580px;
+    width: 100%;
+    font-size: 20px;
+    padding-bottom: 80px;
+    padding-top: 32px;
+    padding-left: 32px;
+}
+
+#avatarrilly {
+    margin-left: 32px;
+    width: 48px;
+    height: 48px;
+}
+
+#rillytitle {
+    display: inline-block;
+    font-size: 18px;
+    margin-left: 12px;
+    margin-right: 72px;
 }
