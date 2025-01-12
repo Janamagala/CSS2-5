@@ -49,9 +49,10 @@
 }
 
 #hugecontainer {
-    width: 1440px;
-    height: 3083px;
+    max-width: 1440px;
+    width: 100%;
     background-color: #E9D7FE;
+    text-align: center;
     margin-top: 131px;
     margin-left: 240px;
 }
@@ -80,16 +81,17 @@ h1 {
 #Basic_plan {
     display: inline-block;
     background-color: #FFFFFF;
-    width: 373px;
-    height: 589px;
+    max-width: 373px;
+    width: 100%;
     border-radius: 16px;
+    text-align: center;
 }
 
 #Business_plan {
     display: inline-block;
     background-color: #FFFFFF;
-    width: 373px;
-    height: 589px;
+    max-width: 373px;
+    width: 100%;
     margin-left: 32px;
     margin-right: 32px;
     border-radius: 16px;
@@ -98,10 +100,443 @@ h1 {
 #Enterprise_plan {
     display: inline-block;
     background-color: #FFFFFF;
-    width: 373px;
-    height: 589px;
+    max-width: 373px;
+    width: 100%;
     border-radius: 16px;
 }
 
-/* DIV ROWS */
+#baplan {
+    max-width: 93px;
+    width: 100%;
+    font-size: 14px;
+    color: #6941C6;
+    background-color: #F9F5FF;
+    border: 1px solid #E9D7FE;
+    border-radius: 9px;
+    text-align: center;
+    margin-top: 40px;
+    padding: 4px 12px;
+    margin-left: 120px;
+    
+}
 
+#buplan {
+    max-width: 117px;
+    width: 100%;
+    font-size: 14px;
+    color: #6941C6;
+    background-color: #F9F5FF;
+    border: 1px solid #E9D7FE;
+    border-radius: 9px;
+    text-align: center;
+    margin-top: 40px;
+    padding: 4px 12px;
+    margin-left: 120px;
+}
+
+#enplan {
+    max-width: 125px;
+    width: 100%;
+    font-size: 14px;
+    color: #6941C6;
+    background-color: #F9F5FF;
+    border: 1px solid #E9D7FE;
+    border-radius: 9px;
+    text-align: center;
+    margin-top: 40px;
+    padding: 4px 12px;
+    margin-left: 120px;
+}
+
+#ten {
+    max-width: 309px;
+    width: 100%;
+    font-size: 48px;
+    text-align: center;
+}
+
+#twenty {
+    max-width: 309px;
+    width: 100%;
+    font-size: 48px;
+    text-align: center;
+}
+
+#forty {
+    max-width: 309px;
+    width: 100%;
+    font-size: 48px;
+    text-align: center;
+}
+
+#getstarted {
+    max-width: 309px;
+    width: 100%;
+    height: 48px;
+    background-color: #7F56D9;
+    color: #FFFFFF;
+    Font-size: 16px;
+    border: 2px solid;
+    border-radius: 8px;
+}
+
+#salechat {
+    max-width: 309px;
+    width: 100%;
+    height: 48px;
+    color: #414651;
+    Font-size: 16px;
+    border: 2px solid #414651;
+    border-radius: 8px;
+    margin-bottom: 32px;
+}
+
+#planlist {
+    font-size: 16px;
+    max-width: 273px;
+    width: 100%;
+    text-align: left;
+    color: #535862;
+    margin-bottom: 16px;
+    margin-left: 40px;
+}
+
+#circle {
+    width: 24px;
+    height: 24px;
+}
+
+#growsplan {
+    max-width: 309px;
+    width: 100%;
+    font-size: 16px;
+    color: #535862;
+    margin-bottom: 16px;
+    margin-top: 4px; 
+    text-align: center;
+}
+
+#questions {
+    max-width: 1248px;
+    width: 100%;
+    background-color: #FFFFFF;
+    border-radius: 24px;
+    margin-left: 96px;
+    margin-top: 64px;
+    margin-bottom: 64px;
+    padding-bottom: 32px;
+}
+
+#asked {
+    max-width: 1248px;
+    width: 100%;
+    text-align: center;
+    font-size: 40px; 
+    color: #181D27;
+    padding-top: 32px;
+}
+
+#productbills {
+    max-width: 1248px;
+    width: 100%;
+    text-align: center;
+    font-size: 24px;
+    color: #535862;
+    margin-top: 20px;
+}
+
+#available {
+    max-width: 768px;
+    width: 100%; 
+    background-color: #E4E4E4;
+    border-radius: 16px;
+    text-align: center;
+    margin-top: 32px;
+    margin-left: 240px;
+    padding: 32px;
+}
+
+#trial {
+    max-width: 656px;
+    width: 100%;
+    color: #181D27;
+    font-size: 16px;
+    text-align: left;
+    margin-left: 30px;
+}
+
+#freedays {
+    max-width: 656px;
+    text-align: center;
+    color: #535862;
+    font-size: 16px;
+    text-align: left;
+    margin-left: 80px;
+    margin-top: 8px;
+}
+
+#planchange {
+    max-width: 768px;
+    width: 100%; 
+    background-color: #FFE5E5;
+    border-radius: 16px;
+    text-align: center;
+    margin-top: 32px;
+    margin-left: 240px;
+    border: solid 2px #FF2323;
+    padding: 32px;
+}
+
+#change {
+    max-width: 656px;
+    width: 100%;
+    color: #181D27;
+    font-size: 16px;
+    text-align: left;
+    margin-left: 30px;
+}
+
+#plantime {
+    max-width: 656px;
+    text-align: center;
+    color: #535862;
+    font-size: 16px;
+    text-align: left;
+    margin-left: 80px;
+    margin-top: 8px;
+}
+
+#canellationpolicy {
+    max-width: 768px;
+    width: 100%; 
+    background-color: #E9D7FF;
+    border-radius: 16px;
+    text-align: center;
+    margin-top: 32px;
+    margin-left: 240px;
+    padding: 32px;
+}
+
+#cancellation {
+    max-width: 656px;
+    width: 100%;
+    color: #181D27;
+    font-size: 16px;
+    text-align: left;
+    margin-left: 30px;
+}
+
+#policy {
+    max-width: 656px;
+    text-align: center;
+    color: #535862;
+    font-size: 16px;
+    text-align: left;
+    margin-left: 80px;
+    margin-top: 8px;
+}
+
+#companyinfo {
+    max-width: 768px;
+    width: 100%; 
+    background-color: #F7F4FF;
+    border-radius: 16px;
+    text-align: center;
+    margin-top: 32px;
+    margin-left: 240px;
+    padding: 32px;
+}
+
+#otherinfo {
+    max-width: 656px;
+    width: 100%;
+    color: #181D27;
+    font-size: 16px;
+    text-align: left;
+    margin-left: 30px;
+}
+
+#companyname {
+    max-width: 656px;
+    text-align: center;
+    color: #535862;
+    font-size: 16px;
+    text-align: left;
+    margin-left: 80px;
+    margin-top: 8px;
+}
+
+#additionalbilling {
+    max-width: 768px;
+    width: 100%; 
+    background-color: #DCE6FF;
+    border-radius: 16px;
+    border: 4px solid #326DFF;
+    text-align: center;
+    margin-top: 32px;
+    margin-left: 240px;
+    padding: 32px;
+}
+
+#billingwork {
+    max-width: 656px;
+    width: 100%;
+    color: #181D27;
+    font-size: 16px;
+    text-align: left;
+    margin-left: 30px;
+}
+
+#additional {
+    max-width: 656px;
+    text-align: center;
+    color: #535862;
+    font-size: 16px;
+    text-align: left;
+    margin-left: 80px;
+    margin-top: 8px;
+}
+
+#mailsettings {
+    max-width: 768px;
+    width: 100%; 
+    background-color: #FFD5E7;
+    border-radius: 16px;
+    text-align: center;
+    margin-top: 32px;
+    margin-left: 240px;
+    padding: 32px;
+}
+
+#accountmail {
+    max-width: 656px;
+    width: 100%;
+    color: #181D27;
+    font-size: 16px;
+    text-align: left;
+    margin-left: 30px;
+}
+
+#accountsettings {
+    max-width: 656px;
+    text-align: center;
+    color: #535862;
+    font-size: 16px;
+    text-align: left;
+    margin-left: 80px;
+    margin-top: 8px;
+}
+
+#reviews {
+    max-width: 1248px;
+    width: 100%;
+    background-color: #FFFFFF;
+    border-radius: 24px;
+    margin-left: 96px;
+    margin-top: 64px;
+    margin-bottom: 96px;
+    padding-bottom: 32px;
+}
+
+#reviewsbox {
+    padding-top: 32px;
+    max-width: 1184px;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 64px;
+}
+
+#ourreviews {
+    font-size: 40px;
+    color: #181D27;
+}
+
+#firsthand {
+    font-size: 24px;
+    color: #535862;
+    margin-top: 20px;
+}
+
+#commentbox {
+    display: inline-block;
+    max-width: 580px;
+    width: 100%;
+    text-align: left;
+    border: 1px solid #535862;
+    border-radius: 12px;
+    padding: 32px;
+}
+
+#everynewproject {
+    max-width: 580px;
+    width: 100%;
+    font-size: 20px;
+    padding-bottom: 80px;
+    padding-top: 32px;
+    padding-left: 32px;
+}
+
+#avatarsienna {
+    margin-left: 32px;
+    width: 48px;
+    height: 48px;
+}
+
+#siennatitle {
+    display: inline-block;
+    font-size: 18px;
+    margin-left: 12px;
+    margin-right: 72px;
+}
+
+#untitleddesign {
+    max-width: 580px;
+    width: 100%;
+    font-size: 20px;
+    padding-bottom: 58px;
+    padding-top: 32px;
+    padding-left: 32px;
+}
+
+#avatarcaithlyn {
+    margin-left: 32px;
+    width: 48px;
+    height: 48px;
+}
+
+#caithlyntitle {
+    display: inline-block;
+    font-size: 18px;
+    margin-left: 12px;
+    margin-right: 72px;
+}
+
+#outputtitle {
+    max-width: 580px;
+    width: 100%;
+    font-size: 20px;
+    padding-bottom: 58px;
+    padding-top: 32px;
+    padding-left: 32px;
+}
+
+#avatarolly {
+    margin-left: 32px;
+    width: 48px;
+    height: 48px;
+}
+
+#ollytitle {
+    display: inline-block;
+    font-size: 18px;
+    margin-left: 12px;
+}
+
+#invaluablepart {
+    max-width: 580px;
+    width: 100%;
+    font-size: 20px;
+    padding-bottom: 80px;
+    padding-top: 32px;
+    padding-left: 32px;
+}
